@@ -1,0 +1,24 @@
+# Secrets and local config
+*.pfx
+*.pem
+*.key
+.env
+config/settings.json
+**/local.settings.json
+
+# Reports / outputs
+reports/
+*.log
+*.csv
+!audit/sample-*.csv
+!audit/sample-*.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# PowerShell
+*.pssc
